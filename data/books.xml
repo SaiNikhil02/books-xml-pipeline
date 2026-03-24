@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+
+  <book category="cooking">
+    <title lang="en">Everyday Italian</title>
+    <author>Giada De Laurentiis</author>
+    <year>2005</year>
+    <price>30.00</price>
+  </book>
+
+  <book category="children">
+    <title lang="en">Harry Potter</title>
+    <author>J K. Rowling</author>
+    <year>2005</year>
+    <price>29.99</price>
+  </book>
+
+  <book category="web">
+    <title lang="en">XQuery Kick Start</title>
+    <author>James McGovern</author>
+    <author>Per Bothner</author>
+    <author>Kurt Cagle</author>
+    <author>James Linn</author>
+    <author>Vaidyanathan Nagarajan</author>
+    <year>2003</year>
+    <price>49.99</price>
+  </book>
+
+  <book category="web" cover="paperback">
+    <title lang="en">Learning XML</title>
+    <author>Erik T. Ray</author>
+    <year>2003</year>
+    <price>39.95</price>
+  </book>
+
+  <book category="fiction">
+    <title lang="en">The Great Gatsby</title>
+    <author>F. Scott Fitzgerald</author>
+    <year>1925</year>
+    <price>12.50</price>
+  </book>
+
+  <book category="fiction" cover="hardcover">
+    <title lang="en">To Kill a Mockingbird</title>
+    <author>Harper Lee</author>
+    <year>1960</year>
+    <price>NOT_A_PRICE</price>
+  </book>
+
+  <book category="science">
+    <title lang="en">A Brief History of Time</title>
+    <author>Stephen Hawking</author>
+    <year>1988</year>
+    <price>15.99</price>
+  </book>
+
+  <book category="web" cover="paperback">
+    <title lang="en">JavaScript &amp; The Good Parts</title>
+    <author>Douglas Crockford</author>
+    <year>2008</year>
+    <price>24.99</price>
+  </book>
+
+  <book category="science">
+    <title lang="en">The Selfish Gene</title>
+    <author>Richard Dawkins</author>
+    <year>1976</year>
+  </book>
+
+  <book category="cooking" cover="hardcover">
+    <title lang="en">Salt, Fat, Acid, Heat</title>
+    <author>Samin Nosrat</author>
+    <year>2017</year>
+    <price>35.00</price>
+  </book>
+
+  <book category="cooking">
+    <title lang="en">Everyday Italian</title>
+    <author>Giada De Laurentiis</author>
+    <year>2005</year>
+    <price>30.00</price>
+  </book>
+
+</bookstore>

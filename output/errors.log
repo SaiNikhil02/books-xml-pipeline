@@ -1,0 +1,243 @@
+2026-03-24 15:57:35,961 - INFO - Parsing books.xml...
+2026-03-24 15:57:35,961 - INFO - Validating book: Everyday Italian
+2026-03-24 15:57:35,961 - INFO - Unique book found: Everyday Italian (hash: 46fa3f5603fd3998551c6e9382c9e447e229288953a90179a3aee3cd4cb348ec)
+2026-03-24 15:57:35,961 - INFO - Loading book to database: Everyday Italian
+2026-03-24 15:57:35,962 - INFO - Validating book: Harry Potter
+2026-03-24 15:57:35,962 - INFO - Unique book found: Harry Potter (hash: 39d2f87b45ca6a85619ccb857a336fa920880e9d2a4c126faafaca6b8efdad6a)
+2026-03-24 15:57:35,962 - INFO - Loading book to database: Harry Potter
+2026-03-24 15:57:35,962 - INFO - Validating book: XQuery Kick Start
+2026-03-24 15:57:35,962 - INFO - Unique book found: XQuery Kick Start (hash: 5354765ceac477c40dfea7754ee77afaabc7b0a449e5a013d7ca60db43f2c1f7)
+2026-03-24 15:57:35,962 - INFO - Loading book to database: XQuery Kick Start
+2026-03-24 15:57:35,962 - INFO - Validating book: Learning XML
+2026-03-24 15:57:35,962 - INFO - Unique book found: Learning XML (hash: 128c68c752b6e2465ad0e9b3e5c06485c5b80b7ca2209ec69f008cba2025ee6a)
+2026-03-24 15:57:35,963 - INFO - Loading book to database: Learning XML
+2026-03-24 15:57:35,963 - INFO - Validating book: The Great Gatsby
+2026-03-24 15:57:35,963 - INFO - Unique book found: The Great Gatsby (hash: 207e3f47b9d4df5be3de160a114388b7f98c1fe2e4ca3241e7fffc67477caee8)
+2026-03-24 15:57:35,963 - INFO - Loading book to database: The Great Gatsby
+2026-03-24 15:57:35,963 - INFO - Validating book: To Kill a Mockingbird
+2026-03-24 15:57:35,963 - ERROR - Invalid price value for book 'To Kill a Mockingbird': NOT_A_PRICE
+2026-03-24 15:57:35,963 - INFO - Validating book: A Brief History of Time
+2026-03-24 15:57:35,963 - INFO - Unique book found: A Brief History of Time (hash: a4a6f2dffa06301dfde1797e356ea7e4bb00018baaa313243662448f5a11d95b)
+2026-03-24 15:57:35,963 - INFO - Loading book to database: A Brief History of Time
+2026-03-24 15:57:35,964 - INFO - Validating book: JavaScript & The Good Parts
+2026-03-24 15:57:35,964 - ERROR - Invalid book data, skipping...
+2026-03-24 15:57:35,964 - INFO - Validating book: The Selfish Gene
+2026-03-24 15:57:35,964 - ERROR - Invalid book data, skipping...
+2026-03-24 15:57:35,964 - INFO - Validating book: Salt, Fat, Acid, Heat
+2026-03-24 15:57:35,964 - ERROR - Invalid book data, skipping...
+2026-03-24 15:57:35,964 - INFO - Validating book: Everyday Italian
+2026-03-24 15:57:35,964 - WARNING - Duplicate book found: Everyday Italian (hash: 46fa3f5603fd3998551c6e9382c9e447e229288953a90179a3aee3cd4cb348ec)
+2026-03-24 15:57:35,964 - INFO - Writing data to CSV...
+2026-03-24 15:57:35,964 - INFO - Data successfully written to CSV.
+2026-03-24 15:57:53,966 - INFO - Starting parse: data/books.xml
+2026-03-24 15:57:53,967 - INFO - Loaded: 'Everyday Italian'
+2026-03-24 15:57:53,968 - INFO - Loaded: 'Harry Potter'
+2026-03-24 15:57:53,969 - INFO - Loaded: 'XQuery Kick Start'
+2026-03-24 15:57:53,969 - INFO - Loaded: 'Learning XML'
+2026-03-24 15:57:53,970 - INFO - Loaded: 'The Great Gatsby'
+2026-03-24 15:57:53,970 - ERROR - Bad price value 'NOT_A_PRICE' — skipping: 'To Kill a Mockingbird'
+2026-03-24 15:57:53,970 - INFO - Loaded: 'A Brief History of Time'
+2026-03-24 15:57:53,970 - INFO - Loaded: 'JavaScript & The Good Parts'
+2026-03-24 15:57:53,970 - ERROR - Missing <price> — skipping: 'The Selfish Gene'
+2026-03-24 15:57:53,971 - INFO - Loaded: 'Salt, Fat, Acid, Heat'
+2026-03-24 15:57:53,971 - WARNING - Duplicate skipped: 'Everyday Italian'
+2026-03-24 15:57:53,971 - INFO - Done. total=11 loaded=8 skipped=3
+2026-03-24 15:57:53,971 - INFO - CSV written: output/books_output.csv
+2026-03-24 15:58:12,563 - INFO - Starting parse: data/books.xml
+2026-03-24 15:58:12,564 - INFO - Loaded: 'Everyday Italian'
+2026-03-24 15:58:12,564 - INFO - Loaded: 'Harry Potter'
+2026-03-24 15:58:12,565 - INFO - Loaded: 'XQuery Kick Start'
+2026-03-24 15:58:12,565 - INFO - Loaded: 'Learning XML'
+2026-03-24 15:58:12,565 - INFO - Loaded: 'The Great Gatsby'
+2026-03-24 15:58:12,565 - ERROR - Bad price value 'NOT_A_PRICE' — skipping: 'To Kill a Mockingbird'
+2026-03-24 15:58:12,566 - INFO - Loaded: 'A Brief History of Time'
+2026-03-24 15:58:12,566 - INFO - Loaded: 'JavaScript & The Good Parts'
+2026-03-24 15:58:12,566 - ERROR - Missing <price> — skipping: 'The Selfish Gene'
+2026-03-24 15:58:12,567 - INFO - Loaded: 'Salt, Fat, Acid, Heat'
+2026-03-24 15:58:12,567 - WARNING - Duplicate skipped: 'Everyday Italian'
+2026-03-24 15:58:12,567 - INFO - Done. total=11 loaded=8 skipped=3
+2026-03-24 15:58:12,567 - INFO - CSV written: output/books_output.csv
+2026-03-24 15:58:54,646 - INFO - Starting parse: data/books.xml
+2026-03-24 15:58:54,647 - INFO - Loaded: 'Everyday Italian'
+2026-03-24 15:58:54,648 - INFO - Loaded: 'Harry Potter'
+2026-03-24 15:58:54,648 - INFO - Loaded: 'XQuery Kick Start'
+2026-03-24 15:58:54,649 - INFO - Loaded: 'Learning XML'
+2026-03-24 15:58:54,649 - INFO - Loaded: 'The Great Gatsby'
+2026-03-24 15:58:54,649 - ERROR - Bad price value 'NOT_A_PRICE' — skipping: 'To Kill a Mockingbird'
+2026-03-24 15:58:54,649 - INFO - Loaded: 'A Brief History of Time'
+2026-03-24 15:58:54,650 - INFO - Loaded: 'JavaScript & The Good Parts'
+2026-03-24 15:58:54,650 - ERROR - Missing <price> — skipping: 'The Selfish Gene'
+2026-03-24 15:58:54,650 - INFO - Loaded: 'Salt, Fat, Acid, Heat'
+2026-03-24 15:58:54,650 - WARNING - Duplicate skipped: 'Everyday Italian'
+2026-03-24 15:58:54,650 - INFO - Done. total=11 loaded=8 skipped=3
+2026-03-24 15:58:54,651 - INFO - CSV written: output/books_output.csv
+2026-03-24 15:59:06,870 - INFO - Starting parse: data/books.xml
+2026-03-24 15:59:06,871 - INFO - Loaded: 'Everyday Italian'
+2026-03-24 15:59:06,871 - INFO - Loaded: 'Harry Potter'
+2026-03-24 15:59:06,872 - INFO - Loaded: 'XQuery Kick Start'
+2026-03-24 15:59:06,872 - INFO - Loaded: 'Learning XML'
+2026-03-24 15:59:06,873 - INFO - Loaded: 'The Great Gatsby'
+2026-03-24 15:59:06,873 - ERROR - Bad price value 'NOT_A_PRICE' — skipping: 'To Kill a Mockingbird'
+2026-03-24 15:59:06,873 - INFO - Loaded: 'A Brief History of Time'
+2026-03-24 15:59:06,874 - INFO - Loaded: 'JavaScript & The Good Parts'
+2026-03-24 15:59:06,874 - ERROR - Missing <price> — skipping: 'The Selfish Gene'
+2026-03-24 15:59:06,874 - INFO - Loaded: 'Salt, Fat, Acid, Heat'
+2026-03-24 15:59:06,874 - WARNING - Duplicate skipped: 'Everyday Italian'
+2026-03-24 15:59:06,874 - INFO - Done. total=11 loaded=8 skipped=3
+2026-03-24 15:59:06,874 - INFO - CSV written: output/books_output.csv
+2026-03-24 18:04:24,381 - INFO - Starting parse: data/books.xml
+2026-03-24 18:04:24,383 - INFO - Loaded: 'Everyday Italian'
+2026-03-24 18:04:24,383 - INFO - Loaded: 'Harry Potter'
+2026-03-24 18:04:24,384 - INFO - Loaded: 'XQuery Kick Start'
+2026-03-24 18:04:24,384 - INFO - Loaded: 'Learning XML'
+2026-03-24 18:04:24,385 - INFO - Loaded: 'The Great Gatsby'
+2026-03-24 18:04:24,385 - ERROR - Bad price value 'NOT_A_PRICE' — skipping: 'To Kill a Mockingbird'
+2026-03-24 18:04:24,385 - INFO - Loaded: 'A Brief History of Time'
+2026-03-24 18:04:24,386 - INFO - Loaded: 'JavaScript & The Good Parts'
+2026-03-24 18:04:24,386 - ERROR - Missing <price> — skipping: 'The Selfish Gene'
+2026-03-24 18:04:24,386 - INFO - Loaded: 'Salt, Fat, Acid, Heat'
+2026-03-24 18:04:24,386 - WARNING - Duplicate skipped: 'Everyday Italian'
+2026-03-24 18:04:24,386 - INFO - Done. total=11 loaded=8 skipped=3
+2026-03-24 18:04:24,387 - INFO - CSV written: output/books_output.csv
+2026-03-24 18:08:58,980 - INFO - Starting parse: data/books.xml
+2026-03-24 18:08:58,981 - INFO - Loaded: 'Everyday Italian'
+2026-03-24 18:08:58,981 - INFO - Loaded: 'Harry Potter'
+2026-03-24 18:08:58,982 - INFO - Loaded: 'XQuery Kick Start'
+2026-03-24 18:08:58,982 - INFO - Loaded: 'Learning XML'
+2026-03-24 18:08:58,982 - INFO - Loaded: 'The Great Gatsby'
+2026-03-24 18:08:58,982 - ERROR - Bad price value 'NOT_A_PRICE' — skipping: 'To Kill a Mockingbird'
+2026-03-24 18:08:58,983 - INFO - Loaded: 'A Brief History of Time'
+2026-03-24 18:08:58,983 - INFO - Loaded: 'JavaScript & The Good Parts'
+2026-03-24 18:08:58,983 - ERROR - Missing <price> — skipping: 'The Selfish Gene'
+2026-03-24 18:08:58,984 - INFO - Loaded: 'Salt, Fat, Acid, Heat'
+2026-03-24 18:08:58,984 - WARNING - Duplicate skipped: 'Everyday Italian'
+2026-03-24 18:08:58,984 - INFO - Done. total=11 loaded=8 skipped=3
+2026-03-24 18:08:58,984 - INFO - CSV written: output/books_output.csv
+2026-03-24 18:09:02,800 - INFO - Starting parse: data/books.xml
+2026-03-24 18:09:02,801 - INFO - Loaded: 'Everyday Italian'
+2026-03-24 18:09:02,802 - INFO - Loaded: 'Harry Potter'
+2026-03-24 18:09:02,803 - INFO - Loaded: 'XQuery Kick Start'
+2026-03-24 18:09:02,803 - INFO - Loaded: 'Learning XML'
+2026-03-24 18:09:02,804 - INFO - Loaded: 'The Great Gatsby'
+2026-03-24 18:09:02,804 - ERROR - Bad price value 'NOT_A_PRICE' — skipping: 'To Kill a Mockingbird'
+2026-03-24 18:09:02,804 - INFO - Loaded: 'A Brief History of Time'
+2026-03-24 18:09:02,804 - INFO - Loaded: 'JavaScript & The Good Parts'
+2026-03-24 18:09:02,804 - ERROR - Missing <price> — skipping: 'The Selfish Gene'
+2026-03-24 18:09:02,805 - INFO - Loaded: 'Salt, Fat, Acid, Heat'
+2026-03-24 18:09:02,805 - WARNING - Duplicate skipped: 'Everyday Italian'
+2026-03-24 18:09:02,805 - INFO - Done. total=11 loaded=8 skipped=3
+2026-03-24 18:09:02,805 - INFO - CSV written: output/books_output.csv
+2026-03-24 18:09:12,672 - INFO - Starting parse: data/books.xml
+2026-03-24 18:09:12,673 - INFO - Loaded: 'Everyday Italian'
+2026-03-24 18:09:12,673 - INFO - Loaded: 'Harry Potter'
+2026-03-24 18:09:12,674 - INFO - Loaded: 'XQuery Kick Start'
+2026-03-24 18:09:12,674 - INFO - Loaded: 'Learning XML'
+2026-03-24 18:09:12,675 - INFO - Loaded: 'The Great Gatsby'
+2026-03-24 18:09:12,675 - ERROR - Bad price value 'NOT_A_PRICE' — skipping: 'To Kill a Mockingbird'
+2026-03-24 18:09:12,675 - INFO - Loaded: 'A Brief History of Time'
+2026-03-24 18:09:12,676 - INFO - Loaded: 'JavaScript & The Good Parts'
+2026-03-24 18:09:12,676 - ERROR - Missing <price> — skipping: 'The Selfish Gene'
+2026-03-24 18:09:12,676 - INFO - Loaded: 'Salt, Fat, Acid, Heat'
+2026-03-24 18:09:12,676 - WARNING - Duplicate skipped: 'Everyday Italian'
+2026-03-24 18:09:12,676 - INFO - Done. total=11 loaded=8 skipped=3
+2026-03-24 18:09:12,677 - INFO - CSV written: output/books_output.csv
+2026-03-24 18:14:16,024 - INFO - Starting parse: data/books.xml
+2026-03-24 18:14:16,025 - INFO - Loaded: 'Everyday Italian'
+2026-03-24 18:14:16,025 - INFO - Loaded: 'Harry Potter'
+2026-03-24 18:14:16,026 - INFO - Loaded: 'XQuery Kick Start'
+2026-03-24 18:14:16,026 - INFO - Loaded: 'Learning XML'
+2026-03-24 18:14:16,026 - INFO - Loaded: 'The Great Gatsby'
+2026-03-24 18:14:16,026 - ERROR - Bad price value 'NOT_A_PRICE' — skipping: 'To Kill a Mockingbird'
+2026-03-24 18:14:16,027 - INFO - Loaded: 'A Brief History of Time'
+2026-03-24 18:14:16,027 - INFO - Loaded: 'JavaScript & The Good Parts'
+2026-03-24 18:14:16,027 - ERROR - Missing <price> — skipping: 'The Selfish Gene'
+2026-03-24 18:14:16,028 - INFO - Loaded: 'Salt, Fat, Acid, Heat'
+2026-03-24 18:14:16,028 - WARNING - Duplicate skipped: 'Everyday Italian'
+2026-03-24 18:14:16,028 - INFO - Done. total=11 loaded=8 skipped=3
+2026-03-24 18:14:16,028 - INFO - CSV written: output/books_output.csv
+2026-03-24 18:18:20,570 - INFO - Starting parse: data/books.xml
+2026-03-24 18:18:20,571 - INFO - Already in DB, skipped: 'Everyday Italian'
+2026-03-24 18:18:20,571 - INFO - Loaded: 'Everyday Italian'
+2026-03-24 18:18:20,571 - INFO - Already in DB, skipped: 'Harry Potter'
+2026-03-24 18:18:20,571 - INFO - Loaded: 'Harry Potter'
+2026-03-24 18:18:20,572 - INFO - Already in DB, skipped: 'XQuery Kick Start'
+2026-03-24 18:18:20,572 - INFO - Loaded: 'XQuery Kick Start'
+2026-03-24 18:18:20,572 - INFO - Already in DB, skipped: 'Learning XML'
+2026-03-24 18:18:20,572 - INFO - Loaded: 'Learning XML'
+2026-03-24 18:18:20,572 - INFO - Already in DB, skipped: 'The Great Gatsby'
+2026-03-24 18:18:20,573 - INFO - Loaded: 'The Great Gatsby'
+2026-03-24 18:18:20,573 - ERROR - Bad price value 'NOT_A_PRICE' — skipping: 'To Kill a Mockingbird'
+2026-03-24 18:18:20,573 - INFO - Already in DB, skipped: 'A Brief History of Time'
+2026-03-24 18:18:20,573 - INFO - Loaded: 'A Brief History of Time'
+2026-03-24 18:18:20,573 - INFO - Already in DB, skipped: 'JavaScript & The Good Parts'
+2026-03-24 18:18:20,573 - INFO - Loaded: 'JavaScript & The Good Parts'
+2026-03-24 18:18:20,573 - ERROR - Missing <price> — skipping: 'The Selfish Gene'
+2026-03-24 18:18:20,574 - INFO - Already in DB, skipped: 'Salt, Fat, Acid, Heat'
+2026-03-24 18:18:20,574 - INFO - Loaded: 'Salt, Fat, Acid, Heat'
+2026-03-24 18:18:20,574 - WARNING - Duplicate skipped: 'Everyday Italian'
+2026-03-24 18:18:20,574 - INFO - Done. total=11 loaded=8 skipped=3
+2026-03-24 18:18:20,574 - INFO - CSV written: output/books_output.csv
+2026-03-24 18:18:40,043 - INFO - Starting parse: data/books.xml
+2026-03-24 18:18:40,044 - INFO - Already in DB, skipped: 'Everyday Italian'
+2026-03-24 18:18:40,044 - INFO - Loaded: 'Everyday Italian'
+2026-03-24 18:18:40,044 - INFO - Already in DB, skipped: 'Harry Potter'
+2026-03-24 18:18:40,044 - INFO - Loaded: 'Harry Potter'
+2026-03-24 18:18:40,045 - INFO - Already in DB, skipped: 'XQuery Kick Start'
+2026-03-24 18:18:40,045 - INFO - Loaded: 'XQuery Kick Start'
+2026-03-24 18:18:40,045 - INFO - Already in DB, skipped: 'Learning XML'
+2026-03-24 18:18:40,045 - INFO - Loaded: 'Learning XML'
+2026-03-24 18:18:40,046 - INFO - Already in DB, skipped: 'The Great Gatsby'
+2026-03-24 18:18:40,046 - INFO - Loaded: 'The Great Gatsby'
+2026-03-24 18:18:40,046 - ERROR - Bad price value 'NOT_A_PRICE' — skipping: 'To Kill a Mockingbird'
+2026-03-24 18:18:40,046 - INFO - Already in DB, skipped: 'A Brief History of Time'
+2026-03-24 18:18:40,046 - INFO - Loaded: 'A Brief History of Time'
+2026-03-24 18:18:40,046 - INFO - Already in DB, skipped: 'JavaScript & The Good Parts'
+2026-03-24 18:18:40,046 - INFO - Loaded: 'JavaScript & The Good Parts'
+2026-03-24 18:18:40,046 - ERROR - Missing <price> — skipping: 'The Selfish Gene'
+2026-03-24 18:18:40,047 - INFO - Already in DB, skipped: 'Salt, Fat, Acid, Heat'
+2026-03-24 18:18:40,047 - INFO - Loaded: 'Salt, Fat, Acid, Heat'
+2026-03-24 18:18:40,047 - WARNING - Duplicate skipped: 'Everyday Italian'
+2026-03-24 18:18:40,047 - INFO - Done. total=11 loaded=8 skipped=3
+2026-03-24 18:18:40,047 - INFO - CSV written: output/books_output.csv
+2026-03-24 18:20:40,321 - INFO - Starting parse: data/books.xml
+2026-03-24 18:20:40,322 - INFO - Already in DB, skipped: 'Everyday Italian'
+2026-03-24 18:20:40,323 - INFO - Already in DB, skipped: 'Harry Potter'
+2026-03-24 18:20:40,323 - INFO - Already in DB, skipped: 'XQuery Kick Start'
+2026-03-24 18:20:40,323 - INFO - Already in DB, skipped: 'Learning XML'
+2026-03-24 18:20:40,324 - INFO - Already in DB, skipped: 'The Great Gatsby'
+2026-03-24 18:20:40,324 - ERROR - Bad price value 'NOT_A_PRICE' — skipping: 'To Kill a Mockingbird'
+2026-03-24 18:20:40,324 - INFO - Already in DB, skipped: 'A Brief History of Time'
+2026-03-24 18:20:40,325 - INFO - Already in DB, skipped: 'JavaScript & The Good Parts'
+2026-03-24 18:20:40,325 - ERROR - Missing <price> — skipping: 'The Selfish Gene'
+2026-03-24 18:20:40,325 - INFO - Already in DB, skipped: 'Salt, Fat, Acid, Heat'
+2026-03-24 18:20:40,325 - WARNING - Duplicate skipped: 'Everyday Italian'
+2026-03-24 18:20:40,325 - INFO - Done. total=11 loaded=0 skipped=11
+2026-03-24 18:20:40,325 - INFO - CSV written: output/books_output.csv
+2026-03-24 18:20:46,418 - INFO - Starting parse: data/books.xml
+2026-03-24 18:20:46,419 - INFO - Already in DB, skipped: 'Everyday Italian'
+2026-03-24 18:20:46,419 - INFO - Already in DB, skipped: 'Harry Potter'
+2026-03-24 18:20:46,420 - INFO - Already in DB, skipped: 'XQuery Kick Start'
+2026-03-24 18:20:46,420 - INFO - Already in DB, skipped: 'Learning XML'
+2026-03-24 18:20:46,421 - INFO - Already in DB, skipped: 'The Great Gatsby'
+2026-03-24 18:20:46,421 - ERROR - Bad price value 'NOT_A_PRICE' — skipping: 'To Kill a Mockingbird'
+2026-03-24 18:20:46,421 - INFO - Already in DB, skipped: 'A Brief History of Time'
+2026-03-24 18:20:46,422 - INFO - Already in DB, skipped: 'JavaScript & The Good Parts'
+2026-03-24 18:20:46,422 - ERROR - Missing <price> — skipping: 'The Selfish Gene'
+2026-03-24 18:20:46,422 - INFO - Already in DB, skipped: 'Salt, Fat, Acid, Heat'
+2026-03-24 18:20:46,422 - WARNING - Duplicate skipped: 'Everyday Italian'
+2026-03-24 18:20:46,422 - INFO - Done. total=11 loaded=0 skipped=11
+2026-03-24 18:20:46,422 - INFO - CSV written: output/books_output.csv
+2026-03-24 18:20:55,868 - INFO - Starting parse: data/books.xml
+2026-03-24 18:20:55,869 - INFO - Already in DB, skipped: 'Everyday Italian'
+2026-03-24 18:20:55,870 - INFO - Already in DB, skipped: 'Harry Potter'
+2026-03-24 18:20:55,870 - INFO - Already in DB, skipped: 'XQuery Kick Start'
+2026-03-24 18:20:55,871 - INFO - Already in DB, skipped: 'Learning XML'
+2026-03-24 18:20:55,871 - INFO - Already in DB, skipped: 'The Great Gatsby'
+2026-03-24 18:20:55,871 - ERROR - Bad price value 'NOT_A_PRICE' — skipping: 'To Kill a Mockingbird'
+2026-03-24 18:20:55,872 - INFO - Already in DB, skipped: 'A Brief History of Time'
+2026-03-24 18:20:55,872 - INFO - Already in DB, skipped: 'JavaScript & The Good Parts'
+2026-03-24 18:20:55,872 - ERROR - Missing <price> — skipping: 'The Selfish Gene'
+2026-03-24 18:20:55,873 - INFO - Already in DB, skipped: 'Salt, Fat, Acid, Heat'
+2026-03-24 18:20:55,873 - WARNING - Duplicate skipped: 'Everyday Italian'
+2026-03-24 18:20:55,873 - INFO - Done. total=11 loaded=0 skipped=11
+2026-03-24 18:20:55,873 - INFO - CSV written: output/books_output.csv
