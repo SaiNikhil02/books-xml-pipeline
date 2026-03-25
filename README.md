@@ -1,6 +1,5 @@
 # Books XML Data Pipeline
-
-A beginner-friendly ETL (Extract, Transform, Load) pipeline that parses an XML dataset of books, validates the data, loads it into a SQLite database, and exports the results to CSV. Built as a hands-on learning project covering core data engineering concepts.
+ETL (Extract, Transform, Load) pipeline that parses an XML dataset of books, validates the data, loads it into a SQLite database, and exports the results to CSV. Built as a hands-on learning project covering core data engineering concepts.
 
 ---
 
@@ -142,7 +141,7 @@ INFO  - Done. total=10 loaded=8 skipped=2
 
 ---
 
-## What I learned
+## Key Learnings
 
 - Parsing XML with `iterparse` for memory-efficient streaming
 - Writing a validation layer that catches bad data before it enters the database
